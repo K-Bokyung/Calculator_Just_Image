@@ -12,10 +12,6 @@ body {
   background-color: aquamarine;
 }
 
-h1 {
-  text-align: left;
-}
-
 #header {
   display: flex;
   flex-direction: row;
@@ -41,4 +37,74 @@ h1 {
   margin: 0;
   padding: 0.5rem;
   font-size: 30px;
+}
+
+.first__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+.first__row button {
+  text-align: center;
+}
+
+.second__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto auto;
+}
+
+.second__row button {
+  text-align: center;
+}
+
+.third__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto auto;
+}
+
+.third__row button {
+  text-align: center;
+}
+
+.fourth__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto auto;
+}
+
+.fourth__row button {
+  text-align: center;
+}
+
+.fifth__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto auto;
+}
+
+.fifth__row button {
+  text-align: center;
+}
+
+.sixth__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto auto;
+}
+
+.sixth__row button {
+  text-align: center;
+}
+
+.seventh__row {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto auto;
+}
+
+.seventh__row button {
+  text-align: center;
 }
