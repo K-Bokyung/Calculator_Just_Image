@@ -1,3 +1,4 @@
+/* Global */
 :root {
   background-color: aliceblue;
 }
@@ -11,6 +12,13 @@ body {
   max-height: 80%;
   background-color: aquamarine;
 }
+
+button {
+  border-radius: 10%;
+  box-shadow: none;
+}
+
+/* tags */
 
 #header {
   display: flex;
@@ -47,64 +55,90 @@ body {
 
 .first__row button {
   text-align: center;
+  border-color: transparent;
+  background-color: transparent;
 }
 
 .second__row {
   display: grid;
   align-content: center;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.1rem;
 }
 
 .second__row button {
   text-align: center;
+  margin: 0.1rem;
+  border: 0.1rem solid rgb(138, 214, 189);
+  background-color: rgb(194, 255, 235);
 }
 
 .third__row {
   display: grid;
   align-content: center;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.1rem;
 }
 
 .third__row button {
   text-align: center;
+  margin: 0.1rem;
+  border: 0.1rem solid rgb(138, 214, 189);
+  background-color: rgb(194, 255, 235);
 }
 
 .fourth__row {
   display: grid;
   align-content: center;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.1rem;
 }
 
 .fourth__row button {
   text-align: center;
+  margin: 0.1rem;
+  border: 0.1rem solid rgb(138, 214, 189);
+  background-color: rgb(194, 255, 235);
 }
 
 .fifth__row {
   display: grid;
   align-content: center;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.1rem;
 }
 
 .fifth__row button {
   text-align: center;
+  margin: 0.1rem;
+  border: 0.1rem solid rgb(138, 214, 189);
+  background-color: rgb(194, 255, 235);
 }
 
 .sixth__row {
   display: grid;
   align-content: center;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.1rem;
 }
 
 .sixth__row button {
   text-align: center;
+  margin: 0.1rem;
+  border: 0.1rem solid rgb(138, 214, 189);
+  background-color: rgb(194, 255, 235);
 }
 
 .seventh__row {
   display: grid;
   align-content: center;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0.1rem;
 }
 
 .seventh__row button {
   text-align: center;
+  margin: 0.1rem;
+  border: 0.1rem solid rgb(138, 214, 189);
+  background-color: rgb(194, 255, 235);
 }
