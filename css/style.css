@@ -15,7 +15,6 @@ body {
 
 button {
   border-radius: 10%;
-  box-shadow: none;
 }
 
 /* tags */
@@ -50,13 +49,22 @@ button {
 .first__row {
   display: grid;
   align-content: center;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+  padding: 0.1rem;
 }
 
-.first__row button {
+.first__button {
   text-align: center;
   border-color: transparent;
   background-color: transparent;
+}
+
+.first__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.first__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .second__row {
@@ -66,11 +74,19 @@ button {
   padding: 0.1rem;
 }
 
-.second__row button {
+.second__button {
   text-align: center;
   margin: 0.1rem;
   border: 0.1rem solid rgb(138, 214, 189);
   background-color: rgb(194, 255, 235);
+}
+
+.second__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.second__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .third__row {
@@ -80,11 +96,19 @@ button {
   padding: 0.1rem;
 }
 
-.third__row button {
+.third__button {
   text-align: center;
   margin: 0.1rem;
   border: 0.1rem solid rgb(138, 214, 189);
   background-color: rgb(194, 255, 235);
+}
+
+.third__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.third__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .fourth__row {
@@ -94,11 +118,19 @@ button {
   padding: 0.1rem;
 }
 
-.fourth__row button {
+.fourth__button {
   text-align: center;
   margin: 0.1rem;
   border: 0.1rem solid rgb(138, 214, 189);
   background-color: rgb(194, 255, 235);
+}
+
+.fourth__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.fourth__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .fifth__row {
@@ -108,11 +140,19 @@ button {
   padding: 0.1rem;
 }
 
-.fifth__row button {
+.fifth__button {
   text-align: center;
   margin: 0.1rem;
   border: 0.1rem solid rgb(138, 214, 189);
   background-color: rgb(194, 255, 235);
+}
+
+.fourth__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.fourth__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .sixth__row {
@@ -122,11 +162,19 @@ button {
   padding: 0.1rem;
 }
 
-.sixth__row button {
+.sixth__button {
   text-align: center;
   margin: 0.1rem;
   border: 0.1rem solid rgb(138, 214, 189);
   background-color: rgb(194, 255, 235);
+}
+
+.sixth__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.sixth__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .seventh__row {
@@ -136,9 +184,17 @@ button {
   padding: 0.1rem;
 }
 
-.seventh__row button {
+.seventh__button {
   text-align: center;
   margin: 0.1rem;
   border: 0.1rem solid rgb(138, 214, 189);
   background-color: rgb(194, 255, 235);
+}
+
+.seventh__button:hover {
+  background-color: rgb(122, 186, 216);
+}
+
+.seventh__button:active {
+  box-shadow: inset -2px -2px 3px rgb(104, 160, 185), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
